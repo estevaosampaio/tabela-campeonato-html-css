@@ -1,0 +1,147 @@
+*{
+   font-family: Arial, sans-serif; 
+}
+
+td {
+    width: 35px;
+    text-align: center;
+    font-size: 14px;
+
+    padding: 3px;
+    
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #ffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    margin: 0px;
+}
+
+table {
+    border: 1px solid #DDDDDD ; 
+    
+}
+
+span {
+    font-weight: bold;
+}
+
+.posicao-classificacao {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nome-time {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+
+    width: 180px;
+    text-align: start;
+}
+
+.titulo-colunas {
+    font-size: 13px;
+    font-weight: bold;
+    color: #999999;
+    text-align: center;
+}
+
+.pontos-time {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+
+    background-color: #F7F7F7;
+}
+
+.fundo-cinza {
+    background-color: #F7F7F7;
+}
+
+.legenda-cor {
+    padding-top: 7px;
+    padding-left: 5px;
+    font-size: 10px;
+    text-align: left;
+    font-weight: bold;
+    color: #8f8f8f;
+}
+
+.legenda-sigla {
+    padding-left: 5px;
+    font-size: 10px;
+    color: #555555;
+    text-align: left;
+}
+
+.divisa-bottom {
+    border-bottom: 2px solid #CCCCCC
+}
+
+/* ////////////Caixas coloridas das legendas /////////////// */
+.box-azulmarinho {
+    display: inline-table;
+    width: 8px;
+    height: 8px;
+    background: #003366;
+    border-radius: 25%;
+}
+
+.box-azul {
+    display: inline-table;
+    width: 8px;
+    height: 8px;
+    background: #1398BE;
+    border-radius: 25%;
+}
+
+.box-amarelo {
+    display: inline-table;
+    width: 8px;
+    height: 8px;
+    background: #DE9800;
+    border-radius: 25%;
+}
+
+.box-vermelho {
+    display: inline-table;
+    width: 8px;
+    height: 8px;
+    background: #C91B04;
+    border-radius: 25%;
+}
+/* ////////////////////////////////////////////////////////// */
+
+/* Cores de classificação */
+.cor-libertadores {
+    color: #003366;
+}
+
+.cor-prelibertadores {
+    color: #1398BE;
+}
+
+.cor-sulamericana {
+    color: #DE9800;
+}
+
+.cor-neutro {
+    color: #CCCCCC;
+}
+
+.cor-rebaixados {
+    color: #C91B04;
+}
+/* ////////////////////// */
